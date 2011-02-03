@@ -1,5 +1,5 @@
 /* Here's some CSS defaulting! Thanks Tantek Celik :) */
-:link,:visited { text-decoration:none; color: #347489; } 
+:link,:visited { text-decoration:none; } 
 ul,ol { list-style:none }
 h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
@@ -26,6 +26,10 @@ address { font-style:normal }
 	font-weight: normal;
 	color: #000;
 	}
+	
+#editor a {
+	color: #347489;
+}
 	
 pre::-webkit-scrollbar {  
     height: 1ex;  

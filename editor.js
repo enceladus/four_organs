@@ -70,7 +70,7 @@ function update_html() {
 // Sets initial HTML and CSS
 function init() {
 
-	css_file.innerHTML = 'body { \ncolor: #ccc; \nmargin: 50px; \nfont: 32px "Helvetica"; \nfont-weight: bold; \n}\n\nh1 { color: #000; font-size: 2em; }\n\na:hover { text-decoration: underline; } .infobox {\ndisplay: block;\nwidth: 600px;\nfont-size: 20px;\nfont-weight: normal;\nmargin: 40px 20px;\ncolor: #444;\n}\n\n.infobox p { margin-bottom: 25px; }';
+	css_file.innerHTML = 'body { \ncolor: #ccc; \nmargin: 50px; \nfont: 32px "Helvetica"; \nfont-weight: bold; \n}\n\nh1 { color: #000; font-size: 2em; }\n\na { color: #347489; }\n\na:hover { text-decoration: underline; } .infobox {\ndisplay: block;\nwidth: 600px;\nfont-size: 20px;\nfont-weight: normal;\nmargin: 40px 20px;\ncolor: #444;\n}\n\n.infobox p { margin-bottom: 25px; }';
 	html_text = '<h1>Four Organs Editor</h1>\n<h2>By <a href="http://stevencampbell.org">Steven Campbell</a></h2>\n\n<div class="infobox">\n<p><strong>Four Organs Editor</strong>, named after <a href="http://en.wikipedia.org/wiki/Four_Organs">a famous Steve Reich piece</a>, is a very simple HTML and CSS editor.</p>\n<p>You can use the source in whatever projects you want, so long as you attribute me by linking <a href="http://stevencampbell.org/projects/four_organs/">back here</a>, or to <a href="http://stevencampbell.org/">my site</a>. The source can be found on <strong><a href="https://github.com/enceladus/four_organs">GitHub</a></strong>.</p>\n<p>This application was made possible by <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a>.</p>\n</div>';
 	
 	// These lines take the above HTML and CSS code and apply it as like the update_*() functions above
