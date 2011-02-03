@@ -1,0 +1,93 @@
+/* Here's some CSS defaulting! Thanks Tantek Celik :) */
+:link,:visited { text-decoration:none; color: #347489; } 
+ul,ol { list-style:none }
+h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{ margin:0; padding:0 }
+a img,:link img,:visited img { border:none }
+address { font-style:normal }
+
+/* Here's the CSS for the editor */
+#editor form {
+	background-color: #fff;
+	}
+	
+#editor:hover {
+	cursor:move;
+	}
+
+#editor {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 350px;
+	margin: 30px;
+	font: 14px/18px 'Lucida Grande', Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000;
+	}
+	
+#editor .tabnav {
+	margin: 0 0 2px 10px;
+	padding: 0;
+	font-size: 12px;
+	}
+	
+#editor .tabnav li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding: 4px 20px;
+	margin: 0 5px 0 0;
+	border: 2px solid #ccc;
+	background-color: #eee;
+	}
+	
+#editor .tabnav li a:hover {
+	text-decoration: none;
+	}
+
+#editor .tabnav li:hover {
+	cursor:pointer;
+	}
+	
+#editor .tabnav li.active {
+	border-bottom: 2px solid #fff;
+	background-color: #fff;
+	}
+	
+#editor h2 {
+	font: 24px 'Helvetica', sans-serif;
+	padding: 0 0 8px 0;
+	}
+	
+#editor form {
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 20px;
+	}
+	
+#editor form textarea {
+	font: 13px Courier, monospace;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	}
+	
+#editor .buttons {
+	text-align: right;
+	}
+	
+#editor form input {
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 7px 25px;
+	background-color: #fff;
+	color: #347489;
+	}
