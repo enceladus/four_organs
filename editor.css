@@ -27,6 +27,14 @@ address { font-style:normal }
 	color: #000;
 	}
 	
+pre::-webkit-scrollbar {  
+    height: 1ex;  
+    }  
+  
+pre::-webkit-scrollbar-thumb:horizontal{  
+    background: rgba(0, 0, 0, .2);  
+    }  
+	
 #editor .tabnav {
 	margin: 0 0 2px 10px;
 	padding: 0;
